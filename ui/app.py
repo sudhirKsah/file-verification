@@ -3,7 +3,7 @@ ui/app.py - Full Featured Flask App
 Features:
   - Dashboard: generate/import/export keys, sign/verify files
   - Blockchain Visual: animated chain of blocks
-  - Attack Simulation: SpongeBob-themed step-by-step attacks
+  - Attack Simulation: step-by-step attack demos
   - Multi-signer: custom signer name input
   - Export: download audit log as CSV or JSON
 """
@@ -463,11 +463,11 @@ input[type=text]:focus{border-color:var(--accent)}
 
   <!-- Header -->
   <div class="attack-page-header">
-    <div class="big-icon">🦠</div>
+    <div class="big-icon">�</div>
     <div>
-      <h2>Bikini Bottom — Attack Simulation Lab</h2>
-      <p>Plankton is trying to steal the Krabby Patty formula and intercept secret messages.
-         Watch how our cryptographic system catches every attack in real time.</p>
+      <h2>Attack Simulation Lab</h2>
+      <p>Eve is trying to tamper with signed files and intercept secret messages.
+         Watch how the cryptographic system catches every attack in real time.</p>
     </div>
   </div>
 
